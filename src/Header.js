@@ -1,7 +1,8 @@
 
 function Header(){
 return(
-<img src="Logo.svg" alt="little lemon logo"/>
+<div className='Header'>
+</div>
 );
 
 }

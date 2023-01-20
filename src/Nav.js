@@ -1,14 +1,19 @@
+import logo from './images/Logo.svg'
+
 
 function Nav(){
     return(
+    <div className='Nav'>
+    <img src={logo} alt="little lemon logo" width='250px' height='50px'/>
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservation</li>
-        <li>Order Online</li>
-        <li>Log In</li>
+       <li><a href="#home">Home </a></li>
+        <li><a href="#About">About </a></li>
+        <li><a href="Menu">Menu </a></li>
+        <li><a href="Reservation">Reservation </a></li>
+        <li><a href="Order Online">Order Online </a></li>
+        <li><a href="Log In">Log In </a></li>
     </ul>
+    </div>
     );
 }
 
