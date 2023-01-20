@@ -41,7 +41,6 @@
 }
 
 .Nav li:hover{
-  background-color: #111;
   transform: scale(1.2);
   text-shadow: none;
 }
