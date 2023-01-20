@@ -3,35 +3,34 @@
   display: grid;
 }
 
-.Header{
-
-}
 
 .Nav{
   display: flex;
-  background-color: #333;
+  background-color: #495E57;
     width: 100%;
     height: 90px;
     text-align: center;
   font-size: 1vw;
   padding-left: 50px;
 
-  
 }
 
 .Nav img{
   justify-content: left;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .Nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-left: 480px;
 }
 
 .Nav li{
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .Nav a{
@@ -40,19 +39,107 @@
     padding: 15px;
 }
 
+.Nav a:hover{
+  color: yellow;
+}
+
 .Nav li:hover{
+  transition: 0.5s;
   transform: scale(1.2);
   text-shadow: none;
 }
 
-.Main{
+.Header{
+  color: black;
+  display: block;
+  padding: 30px;
+}
 
+.Header img{
+  float: right;
+  padding-right: 350px;
+}
+
+.HeaderButton{
+  border-radius: 4px;
+  background-color: black;
+  box-shadow: none;
+  color: white;
+  padding: 15px;
+}
+
+.HeaderButton:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.Header article{
+  padding-left: 280px;
+}
+
+.Main{
+color: black;
+padding-left: 310px;
+}
+
+.Specials{
+  display: inline-flex;
+}
+
+.SpecialsButton{
+  border-radius: 4px;
+  background-color: black;
+  box-shadow: none;
+  color: white;
+  padding: 15px;
+}
+
+.SpecialsButton:hover{
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+.dishes{
+  display: flex;
+}
+
+.dish2,.dish3{
+  padding-left: 80px;
 }
 
 .Footer{
-  list-style: none;
+  display: flex;
+  background-color: #495E57;
   font-size: 1vw;
+  padding-left: 15%;
 }
+
+.Footer img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Footer ul{
+  list-style: none;
+}
+
+.Footer h2{
+  padding-left: 30px;
+  color: #f4ce14;
+}
+
+.Footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+}
+
+.Footer a:hover{
+  color: yellow;
+  transition: 0.2s;
+}
+
+
 
 .App-logo {
   height: 40vmin;

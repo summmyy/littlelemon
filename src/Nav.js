@@ -6,7 +6,7 @@ function Nav(){
     <div className='Nav'>
     <img src={logo} alt="little lemon logo" width='250px' height='50px'/>
     <ul>
-       <li><a href="#home">Home </a></li>
+        <li><a href="#home">Home </a></li>
         <li><a href="#About">About </a></li>
         <li><a href="Menu">Menu </a></li>
         <li><a href="Reservation">Reservation </a></li>
