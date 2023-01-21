@@ -32,6 +32,9 @@ function Footer(){
         <li><a href="www.Facebook.com">Facebook</a></li>
     </ul>
     </div>
+    <div className='FooterCopyright'>
+    <p>Copyright © <br/> 2023 Liitle Lemon.<br/> All rights reserved</p>
+    </div>
     </div>
     );
 

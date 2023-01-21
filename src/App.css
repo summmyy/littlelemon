@@ -1,13 +1,14 @@
 
 .App {
   display: grid;
+  grid-template-columns: auto;
 }
 
 
 .Nav{
   display: flex;
-  background-color: #495E57;
-    width: 100%;
+  background-color: #fff;
+    width: auto;
     height: 90px;
     text-align: center;
   font-size: 1vw;
@@ -34,13 +35,13 @@
 }
 
 .Nav a{
-  color: #fff;
+  color: #495E57;
     text-decoration: none;
     padding: 15px;
 }
 
 .Nav a:hover{
-  color: yellow;
+  color: #f4ce14;
 }
 
 .Nav li:hover{
@@ -50,9 +51,10 @@
 }
 
 .Header{
-  color: black;
+  color: #495E57;
   display: block;
   padding: 30px;
+  background-color: #f4ce14;
 }
 
 .Header img{
@@ -62,9 +64,9 @@
 
 .HeaderButton{
   border-radius: 4px;
-  background-color: black;
+  background-color: #495E57;
   box-shadow: none;
-  color: white;
+  color: #f4ce14;
   padding: 15px;
 }
 
@@ -73,13 +75,14 @@
     transition: 1.5s;
 }
 
-.Header article{
+.heading{
   padding-left: 280px;
 }
 
 .Main{
-color: black;
+color: #495E57;
 padding-left: 310px;
+background-color: #f4ce14;
 }
 
 .Specials{
@@ -88,9 +91,9 @@ padding-left: 310px;
 
 .SpecialsButton{
   border-radius: 4px;
-  background-color: black;
+  background-color: #495E57;
   box-shadow: none;
-  color: white;
+  color: #f4ce14;
   padding: 15px;
 }
 
@@ -107,11 +110,65 @@ padding-left: 310px;
   padding-left: 80px;
 }
 
+.testimonials{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+.testimonialsHeading{
+  text-align: center;
+  padding-right: 350px;
+}
+
+.testimonialsSection{
+  display: flex;
+}
+
+.review2,.review3,.review4{
+  padding-left: 20px;
+}
+
+.About{
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.AboutText{
+  text-align: center;
+  padding-right: 350px;
+  padding-bottom: 50px;
+}
+
+.AboutImages{
+  padding-right: 400px;
+}
+
+.About1{
+  float: right;
+  position: relative;
+  bottom: 30px;
+  right: 30px;
+}
+
+.About2{
+  float: right;
+  position: relative;
+  top: 30px;
+  left: 0px;
+}
+
+
+
 .Footer{
   display: flex;
-  background-color: #495E57;
+  background-color: #fff;
   font-size: 1vw;
   padding-left: 15%;
+}
+
+.DoorMatNav,.Contact,.SMLinks{
+  padding-left: 100px;
 }
 
 .Footer img{
@@ -125,17 +182,24 @@ padding-left: 310px;
 
 .Footer h2{
   padding-left: 30px;
-  color: #f4ce14;
+  color: #495E57;
 }
 
 .Footer a{
-    color: #fff;
+    color: #495E57;
     text-decoration: none;
     padding: 0;
 }
 
+.FooterCopyright{
+  display: block;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #495E57;
+}
+
 .Footer a:hover{
-  color: yellow;
+  color: #333;
   transition: 0.2s;
 }
 
