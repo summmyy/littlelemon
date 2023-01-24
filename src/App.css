@@ -72,7 +72,7 @@
 
 .HeaderButton:hover{
     transform: scale(1.1);
-    transition: 1.5s;
+    transition: 0.8s;
 }
 
 .heading{
@@ -99,7 +99,7 @@ background-color: #f4ce14;
 
 .SpecialsButton:hover{
   transform: scale(1.1);
-  transition: 1.5s;
+  transition: 0.8s;
 }
 
 .dishes{

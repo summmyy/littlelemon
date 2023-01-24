@@ -1,7 +1,7 @@
 import headerImg from './images/restaurantChefB.jpg'
 
 
-function Header(){
+function CallToAction(){
 return(
 <div className='Header'>
 <img src={headerImg} alt="chef cooking" width='300' height='300'/>
@@ -19,4 +19,4 @@ return(
 
 }
 
-export default Header;
+export default CallToAction;
