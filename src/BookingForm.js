@@ -23,7 +23,7 @@ function BookingForm(props){
                 <input type="date" id="res-date" value={date} onChange={handleDateChange}/>
                 <label for="res-time">Choose time</label>
                 <select id="res-time ">
-                    {props.avaibleTime.map((time, index) => (<option key={index} value={time}>{time}</option>))}
+                    {availableTimes.map((time, index) => (<option key={index} value={time}>{time}</option>))}
                 </select>
                 <label for="guests">Number of guests</label>
                 <input type="number" placeholder="1" min="1" max="10" id="guests" value={inputValue} onChange={handleChange}/>
