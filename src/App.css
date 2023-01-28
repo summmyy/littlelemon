@@ -203,7 +203,12 @@ background-color: #f4ce14;
   transition: 0.2s;
 }
 
-
+.BookingForm{
+  color: #333;
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+}
 
 .App-logo {
   height: 40vmin;

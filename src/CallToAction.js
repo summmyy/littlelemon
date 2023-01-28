@@ -10,7 +10,7 @@ return(
     <h3>Chicago</h3>
     <p> Lorem ipsum dolor sit amet, consectetur<br/>
         adipiscing elit, sed do eiusmod tempor<br/>
-        incididunt ut labore et dolore magna aliqua. 
+        incididunt ut labore et dolore magna aliqua.
     </p>
     <button className='HeaderButton'>Start Free Trail</button>
 </div>

@@ -12,7 +12,7 @@ function Testimonials(){
             </div>
         <div className='testimonialsSection'>
             <div className='review1'>
-                <h3>JOHN</h3>
+                <h3>OLA</h3>
                 <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                 <img src={john} alt='customer named john' width={150} height={150} />
                 <p> Lorem ipsum dolor sit amet,<br/>
