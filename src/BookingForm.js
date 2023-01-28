@@ -2,11 +2,11 @@ import React,{useState} from 'react';
 
 function BookingForm(props){
 
-    function FormState() {
+
         const [inputValue, setInputValue] = useState('');
-    }
+
         function handleChange(event) {
-            setInputValue(event.target.value);
+          setInputValue(event.target.value);
         }
         const { availableTimes, dispatch } = props;
         const [date, setDate] = useState('');
@@ -26,7 +26,7 @@ function BookingForm(props){
                     {props.avaibleTime.map((time, index) => (<option key={index} value={time}>{time}</option>))}
                 </select>
                 <label for="guests">Number of guests</label>
-                <input type="number" placeholder="1" min="1" max="10" id="guests" value={''} onChange={handleChange}/>
+                <input type="number" placeholder="1" min="1" max="10" id="guests" value={inputValue} onChange={handleChange}/>
                 <label for="occasion">Occasion</label>
                 <select id="occasion">
                     <option>Birthday</option>
