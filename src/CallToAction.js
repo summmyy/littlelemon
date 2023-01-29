@@ -1,7 +1,17 @@
 import headerImg from './images/restaurantChefB.jpg'
+import {useNavigate} from 'react-router-dom'
 
 
 function CallToAction(){
+
+    const navigate = useNavigate();
+
+    function handleSubmit(event){
+        event.preventDefault()
+        navigate('/Login')
+    }
+
+
 return(
 <div className='Header'>
 <img src={headerImg} alt="chef cooking" width='300' height='300'/>
@@ -12,7 +22,7 @@ return(
         adipiscing elit, sed do eiusmod tempor<br/>
         incididunt ut labore et dolore magna aliqua.
     </p>
-    <button className='HeaderButton'>Start Free Trail</button>
+    <button onClick={handleSubmit} className='HeaderButton'>Login</button>
 </div>
 </div>
 );

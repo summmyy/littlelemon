@@ -1,10 +1,11 @@
 import about1 from './images/Mario and Adrian A.jpg'
 import about2 from './images/restauranfood.jpg'
-
+import Nav from './Nav.js'
 
 function About(){
     return(
         <div>
+            
             <div className='About'>
             <div className='AboutText'>
                 <h1>About</h1>

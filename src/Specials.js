@@ -1,14 +1,24 @@
 import greek from './images/smallGreek.png'
 import bruh from './images/bruchetta.png'
 import dessert from './images/lemon dessert.jpg'
+import Nav from './Nav.js'
+import { useNavigate } from 'react-router-dom'
 
 function Specials(){
+
+    const navigate = useNavigate();
+
+    function handleSubmit(event){
+        event.preventDefault()
+        navigate('/Reservation')
+    }
     return(
+        <>
         <div>
             <div className="Specials">
             <h1>Specials &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             &emsp;&emsp;&emsp;&emsp;&emsp;
-                <button className='SpecialsButton'>Online Menu</button>
+                <button onClick={handleSubmit} className='SpecialsButton'>Book a Table</button>
                 </h1>
         </div>
         <div className='dishes'>
@@ -41,6 +51,7 @@ function Specials(){
             </div>
         </div>
         </div>
+        </>
     )
 };
 

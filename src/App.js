@@ -1,35 +1,31 @@
 import React from 'react';
 import './App.css';
-import Header from './CallToAction.js'
-import Nav from './Nav.js'
-import Main from './Main.js'
-import Footer from './Footer.js'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Homepage from './Homepage';
 import About from './About'
 import Orders from './Orders'
 import Login from './Login'
 import Specials from './Specials';
 import BookingPage from './BookingPage';
+import ConfirmedBooking from './ComfirmedBooking';
+import SignUp from './SignUp';
 
 
 function App() {
+        /*  <Route path='/About' element={<About />}/>
+            <Route path='/Menu' element={<Specials />}/>
+            <Route path='/Order Online' element={<Orders />}/>
+            */
   return (
-    <div className='App'>
-    <Router>
-    <Nav />
-    <Switch>
-            <Route path='/Home'/>
-            <Route path='/About' component={About}/>
-            <Route path='/Menu' component={Specials}/>
-            <Route path='/Reservation' component={BookingPage}/>
-            <Route path='/Order Online' component={Orders}/>
-            <Route path='/Login' component={Login}/>
-      </Switch>
-    <Header />
-    <Main />
-    <Footer />
-    </Router>
-    </div>
+    <>
+      <Routes>
+            <Route path='/' element={<Homepage />}/>
+            <Route path='/Reservation' element={<BookingPage />}/>
+            <Route path='/Login' element={<Login />}/>
+            <Route path='/Confirmation' element={<ConfirmedBooking />} />
+            <Route path='/SignUp' element={<SignUp />} />
+      </Routes>
+    </>
   );
 }
 
