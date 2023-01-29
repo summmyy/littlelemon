@@ -57,7 +57,9 @@ function BookingForm(props){
                     <option>Date Night</option>
                     <option>Just Because</option>
                 </select>
+                <div className='BookingButton'>
                 <button type="submit" value="Make Your reservation">Reserve</button>
+                </div>
             </form>
         </div>
     )

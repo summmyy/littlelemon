@@ -65,16 +65,19 @@
 }
 
 .HeaderButton{
-  border-radius: 4px;
+  justify-content: center;
+  width: auto;
   background-color: #495E57;
-  box-shadow: none;
-  color: #f4ce14;
-  padding: 15px;
+  color: white;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .HeaderButton:hover{
-    transform: scale(1.1);
-    transition: 0.8s;
+  background-color: #52956d;
 }
 
 .heading{
@@ -92,16 +95,19 @@ background-color: #f4ce14;
 }
 
 .SpecialsButton{
-  border-radius: 4px;
+  justify-content: center;
+  width: auto;
   background-color: #495E57;
-  box-shadow: none;
-  color: #f4ce14;
-  padding: 15px;
+  color: white;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .SpecialsButton:hover{
-  transform: scale(1.1);
-  transition: 0.8s;
+  background-color: #52956d;
 }
 
 .dishes{
@@ -167,7 +173,14 @@ background-color: #f4ce14;
   background-color: #f4ce14;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: left;
+}
+
+.BookingForm{
+  color: #495E57;
+  gap: 40px;
+  justify-content: left;
+
 }
 
 .BookingForm h1{
@@ -177,40 +190,65 @@ background-color: #f4ce14;
 }
 
 .BookingForm form {
-  max-width: 600px;
+  max-width: 350px;
   margin: 0 auto;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-  justify-content: center;
+  justify-content: left;
 }
 
+.Login h1{
+  color: #495E57;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.SignUp h1{
+  color: #495E57;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form{
+  max-width: 350px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  justify-content: left;
+}
 
 /* Form label */
 label {
   font-size: 18px;
   margin-bottom: 10px;
   display: block;
-  padding: 20px;
+  padding-left: 10px;
 }
 
 /* Form input */
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="number"],
+input[type="date"] {
   width: auto;
   padding: 12px;
   margin-bottom: 10px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 8px;
+  padding-left: 10px;
 }
 
 /* Form button */
 button[type="submit"] {
+  justify-content: center;
   width: auto;
-  background-color: #4CAF50;
+  background-color: #495E57;
   color: white;
   padding: 14px 20px;
   margin-bottom: 20px;
@@ -221,13 +259,33 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #52956d;
 }
 
 select{
-  padding: 10px;
+  width: auto;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
+.BookingButton{
+  padding-top: 20px;
+}
+
+.LoginButtons{
+  justify-content: center;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.SignUpButton{
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
 
 .Footer{
   display: flex;
@@ -272,12 +330,7 @@ select{
   transition: 0.2s;
 }
 
-.BookingForm{
-  color: #333;
-  display: grid;
-  max-width: 200px;
-  gap: 20px;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -312,4 +365,9 @@ select{
   to {
     transform: rotate(360deg);
   }
+}
+
+.ConfirmedBooking{
+  color: #495E57;
+  text-align: center;
 }

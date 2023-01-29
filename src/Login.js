@@ -20,20 +20,23 @@ function Login() {
     <div>
     <Nav />
     <div className='Login'>
+    <h1>Login</h1>
     <form onSubmit={handleSubmit}>
       <label>
         Email:
-        <input type="email" name="email" />
       </label>
+      <input type="email" name="email" />
       <br />
       <label>
         Password:
-        <input type="password" name="password"  />
       </label>
+      <input type="password" name="password"  />
       <br />
-      <button type="submit">Login</button>
+      <div className='LoginButtons'>
+      <button type="submit">Login</button> &emsp;
+      <button type='submit' onClick={SignUp}>Sign Up</button>
+      </div>
     </form>
-    <button type='submit' onClick={SignUp}>Sign Up</button>
     </div>
     </div>
   );

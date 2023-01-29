@@ -21,28 +21,31 @@ function SignUp() {
     <>
     <Nav />
     <div className="SignUp">
+    <h1>Sign Up</h1>
     <form onSubmit={handleSubmit}>
       <label>
         Name:
-        <input type="text" name="name" required />
       </label>
+      <input type="text" name="name" required />
       <br />
       <label>
         Email:
-        <input type="email" name="email" required />
       </label>
+      <input type="email" name="email" required />
       <br />
       <label>
         Password:
-        <input type="password" name="password" required />
       </label>
+      <input type="password" name="password" required />
       <br />
       <label>
         Confirm Password:
-        <input type="password" name="confirmPassword" required />
       </label>
+      <input type="password" name="confirmPassword" required />
       <br />
+      <div className="SignUpButton">
       <button type="submit">Sign Up</button>
+      </div>
     </form>
     </div>
     </>

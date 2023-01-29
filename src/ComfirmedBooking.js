@@ -6,7 +6,7 @@ function ConfirmedBooking(){
         <Nav />
         <div className='ConfirmedBooking'>
         <h1>Booking Receipt</h1>
-        <h2>Your Booking has been confirmed</h2>
+        <h2>Your Booking has been confirmed. See You Soon!</h2>
         </div>
         </>
     )
