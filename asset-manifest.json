@@ -20,7 +20,7 @@
     "787.99ffa8e0.chunk.js.map": "/littlelemon/static/js/787.99ffa8e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b773bdc.css",
-    "static/js/main.cf7b8f49.js"
+    "static/css/main.8b773bdc.css.map",
+    "static/js/main.cf7b8f49.js.map"
   ]
 }
